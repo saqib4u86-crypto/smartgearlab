@@ -1,14 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx}'],
   theme: {
-    extend: {
-      colors: {
-        brandDark: '#0f172a',
-        brandAccent: '#2563eb',
-        brandGray: '#f8fafc',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
